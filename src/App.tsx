@@ -1,8 +1,7 @@
 import './App.scss';
 import NavBar from './components/NavBar';
 import Blog from './components/Blog';
-import HeroSection from './components/HeroSection';
-import ApiData from './components/ApiData.jsx';
+import HeroSection from './components/HeroSection.jsx';
 
 export default function App() {
   return (
@@ -10,7 +9,6 @@ export default function App() {
       <NavBar/>
       <Blog/>
       <HeroSection/>
-      <ApiData/>
     </>
 
   );
